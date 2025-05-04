@@ -1,0 +1,160 @@
+.deletebody{
+    background-color: white;
+}
+
+.navbar {
+    display:flex; /* Use flex layout */
+    align-items:center; /* Align items vertically */
+    background-color:rgb(71, 24, 190); /* Set a light gray background color */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px;
+    height: 70px;
+}
+
+/* Style the buttons */
+.button {
+    margin: 10px; /* Add some margin around the buttons */
+    padding: 10px; /* Add some padding inside the buttons */
+    border: none; /* Remove the default border */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Change the cursor to a pointer when hovering */
+    border-radius: 10px;   
+    letter-spacing: 1px;
+}
+
+/* Style the delete button */
+.delete {
+    background-color: #821010; /* Set a red background color */
+    color: white; /* Set a white text color */
+    letter-spacing: 1px;
+}
+
+/* Style the update button */
+.update {
+    background-color: #12549b; /* Set a blue background color */
+    color: white; /* Set a white text color */
+
+}
+
+/* Style the adding button */
+.adding {
+    background-color: #2f9e2f; /* Set a green background color */
+    color: rgb(255, 255, 255); /* Set a white text color */
+}
+.logout{
+  /*  background-color: rgb(210, 105, 30);
+    color: white;   */
+
+    background-color: #93a01d; /* Set a green background color */
+    color: rgb(250, 247, 247);
+}
+.search{
+    background-color: #ad098f; /* Set a green background color */
+    color: rgb(250, 247, 247);
+
+}
+
+/* Style the table */
+.table {
+    border-collapse: separate;
+   /* border-collapse: collapse;  Collapse the table borders */
+    width: 100%; /* Set the table width to 100% of the container */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style the table header cells */
+.table th {
+    background-color:rgb(71, 24, 190); /* Set a blue background color */
+    color: white; /* Set a white text color */
+    padding: 10px; /* Add some padding inside the cells */
+    text-align: left; /* Align the text to the left */
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+/* Style the table data cells */
+.table td {
+    border: 1px solid rgb(185, 183, 182); /* Add a light gray border around the cells */
+    padding: 10px; /* Add some padding inside the cells */
+    border-radius: 5px;
+    align-items:center;
+    background-color: rgb(234, 232, 231);
+    text-align: center;   
+    
+    
+   
+   
+}
+
+/* Style the image cells */
+.image {
+    width: 150px; /* Set a fixed width for the images */
+    height: 100px; /* Set a fixed height for the images */
+    border-radius: 10px;
+    transition: 1.1s;
+
+}
+.image:hover{
+    width: 400px;
+    height: 400px;
+    transition: 1.1s;
+}
+.logo{
+    width: 5px;
+    height: 5px;
+    display: flex;
+    align-items:center;
+    background-color: #12549b;
+
+}
+#logo{
+    position: relative;
+    left: 1085px;
+    border-radius: 55px;  
+    clip-path: circle(70%);
+}
+.footer {
+    display: flex;
+    align-items: center; 
+     
+    color:white; 
+    padding:10px; 
+    height: 100%;
+   /* background-color:rgb(71, 24, 190);        */
+ }
+ 
+ .copy {
+    margin-left:auto; 
+    display: flex;
+    align-items:center;
+    font-weight: bold;
+    position: relative;
+   
+ }
+ 
+ .social {
+    display:flex; 
+    margin-right:auto;
+    clip-path: circle(20%); 
+ }
+ 
+ .social a {
+    margin-left: 20px;
+    position: relative;
+    left: 200px;
+    
+ }
+ 
+ .social img {
+    width:32px; 
+    height:auto; 
+ }
+ 
+ .social img:hover {
+    filter:brightness(80%); 
+    background-color: #caccce;
+    
+ }

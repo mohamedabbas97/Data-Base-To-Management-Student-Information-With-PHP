@@ -1,0 +1,129 @@
+.navbar {
+    display:flexbox; /* Use flex layout */
+    align-items:center; /* Align items vertically */
+    background-color:rgb(71, 24, 190); /* Set a light gray background color */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px;
+    height: 80px;
+    
+}
+
+/* Style the buttons */
+.button {
+    margin: 10px; /* Add some margin around the buttons */
+    padding: 10px; /* Add some padding inside the buttons */
+    border: none; /* Remove the default border */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Change the cursor to a pointer when hovering */
+    border-radius: 10px;
+    display:flexbox; /* Use flex layout */
+    align-items:center; /* Align items vertically */
+    letter-spacing: 1px;
+    
+}
+
+/* Style the delete button */
+.delete {
+    background-color: #821010; /* Set a red background color */
+    color: white; /* Set a white text color */
+    
+}
+
+/* Style the update button */
+.update {
+    background-color: #12549b; /* Set a blue background color */
+    color: white; /* Set a white text color */
+
+}
+
+/* Style the adding button */
+.adding {
+    background-color: #3eca3e; /* Set a green background color */
+    color: white; /* Set a white text color */
+}       
+
+.display{
+    background-color: #838a1c;
+    color: white;
+}
+       
+       
+       
+       
+       
+       
+       /* Style the form */
+       .form :placeholder-shown{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        
+       }
+        .form {
+            display: flex; /* Use flex layout */
+            flex-direction: column; /* Arrange the items vertically */
+            align-items: center; /* Align the items horizontally */
+            margin: 20px; /* Add some margin around the form */
+            border: 2px  red;
+            padding-bottom: 15px;
+            margin-left: 200px;
+            margin-right: 200px;
+            background-color: #dbd7d7;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px 5px  rgb(188, 186, 186);
+        }
+       
+        /* Style the form labels */
+        .form label {
+            font-family: monospace;
+            font-weight: 500;
+            font-size: 20px;
+            margin: 10px; /* Add some margin around the labels */
+            letter-spacing: 2px;
+            
+        }
+
+        /* Style the form inputs */
+        .form input  {
+            border-radius: 15px;
+            height: 40px;
+            width: 400px; /* Set a fixed width for the inputs */
+            padding: 10px; /* Add some padding inside the inputs */
+            border: 1px solid #4c5fec; /* Add a light gray border around the inputs */
+            background-color:rgb(233, 237, 237) ;
+            font-size: 17px;
+            
+        }
+
+        /* Style the file input */
+        .form input[type=file] {
+            width:100px ; /* auto  Remove the fixed width for the file input */
+            border: none ;
+
+            
+        }
+
+        /* Style the submit button */
+        .form input[type=submit] {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 900;
+            border-radius: 20px;
+            background-color: #007bff; /* Set a blue background color */
+            color: rgb(12, 12, 12); /* Set a white text color */
+            font-size: 16px; /* Set a font size */
+            cursor: pointer; /* Change the cursor to a pointer when hovering */
+            
+        }
+        .form input[type=submit]:hover{
+            background-color: #5ce461;
+            transition: 2;
+        }
+        #image{
+            margin-top: 5px;
+            margin-bottom: 5px;  
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            
+            
+        }
+       

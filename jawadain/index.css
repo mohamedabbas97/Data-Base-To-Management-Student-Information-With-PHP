@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    height: 100vh;
+  }
+  
+  .navbar {
+    display:flex;
+    align-items: center;
+    background-color: #5553dd;
+    color: white;
+  }
+  
+  .logo {
+    letter-spacing: 1px;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+  }
+  .logo:hover{
+    font-size: 30px;
+    color: red;
+    border: 0px 0px 2px 0px;
+    border-radius: 2px;
+    opacity: 0.5;
+  }
+  
+  .links {
+    list-style: none;
+    margin-left: auto;
+  }
+  
+  .links li {
+    display: inline-block;
+  }
+  
+  .links a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
+  .links a:hover {
+    background-color: #4CAF50;
+    border-radius: 9px;
+  }
+  
+  .login-container {
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-color: rgb(203, 199, 199);
+    margin: auto;
+    border-radius: 10px;
+  }
+  .login{
+    letter-spacing: 3px;
+    font-family: monospace;
+    font-size: 23px;
+    font-weight: 700;
+
+  }
+  .login::first-letter{
+    font-size: 35px;
+    font-weight: bold;
+    color: chocolate;
+    
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    border: 5px;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    background-color: #f0f0f0;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+  }
+  
+  input[type=text]:hover, input[type=password]:hover {
+    transform: scale(1.05);/* 1.05 */
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d1ce8;
+    color: rgb(11, 1, 1);
+    border: 1px solid ;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 900;
+
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    background-color: #40ff46;
+    color: black;
+    font-size: 17px;
+    
+  }
+  
+  .footer {
+     display: flex;
+     align-items: center; 
+     background-color:#5553dd; 
+     color:white; 
+     padding:10px; 
+  }
+  
+  .copy {
+     margin-left:auto; 
+     display: flex;
+     align-items:center;
+     font-weight: bold;
+  }
+  
+  .social {
+     display:flex; 
+     margin-right:auto; 
+  }
+  
+  .social a {
+     margin-left: 20px;
+  }
+  
+  .social img {
+     width:32px; 
+     height:auto; 
+  }
+  
+  .social img:hover {
+     filter:brightness(80%); 
+  }
+  
